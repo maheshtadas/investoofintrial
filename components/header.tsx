@@ -6,13 +6,7 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 import { cn } from "@/lib/utils";
 import { useScroll } from "motion/react";
-import {
-  SignedOut,
-  useUser,
-  UserButton,
-  SignedIn,
-  userProfile,
-} from "@clerk/nextjs";
+import { SignedOut, useUser, UserButton, SignedIn } from "@clerk/nextjs";
 
 const menuItems = [
   { name: "Home", href: "/" },
