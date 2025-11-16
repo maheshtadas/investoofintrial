@@ -71,17 +71,11 @@ export const HeroHeader = () => {
                 </SignedOut>
                 <SignedIn>
                   <UserButton
-                    userProfile={
-                      {
-                        // Optional: you can provide any custom settings here
-                      }
-                    }
                     appearance={{
                       elements: {
                         userButtonPopoverCard: "mt-6 ml-7", // Adds margin top to popover itself
                       },
                     }}
-                    popoverPlacement="bottom" // Opens dropdown below the button
                   />
                 </SignedIn>
 
